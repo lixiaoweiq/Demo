@@ -22,6 +22,7 @@
 		184CB6A91DE56D600085E63F /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6A81DE56D600085E63F /* QViewController.m */; };
 		184CB6AC1DE56F0C0085E63F /* zViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6AB1DE56F0C0085E63F /* zViewController.m */; };
 		184CB6AF1DE58F520085E63F /* ZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6AE1DE58F520085E63F /* ZZViewController.m */; };
+		18D735A51DE5982D005D7BD5 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D735A41DE5982D005D7BD5 /* AAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		184CB6AB1DE56F0C0085E63F /* zViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zViewController.m; sourceTree = "<group>"; };
 		184CB6AD1DE58F520085E63F /* ZZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZViewController.h; sourceTree = "<group>"; };
 		184CB6AE1DE58F520085E63F /* ZZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZViewController.m; sourceTree = "<group>"; };
+		18D735A31DE5982D005D7BD5 /* AAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
+		18D735A41DE5982D005D7BD5 /* AAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				184CB6971DE55C730085E63F /* myViewController.h */,
 				184CB6AA1DE56F0C0085E63F /* zViewController.h */,
 				184CB6AD1DE58F520085E63F /* ZZViewController.h */,
+				18D735A31DE5982D005D7BD5 /* AAViewController.h */,
+				18D735A41DE5982D005D7BD5 /* AAViewController.m */,
 				184CB6AE1DE58F520085E63F /* ZZViewController.m */,
 				184CB6AB1DE56F0C0085E63F /* zViewController.m */,
 				184CB6981DE55C730085E63F /* myViewController.m */,
@@ -312,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184CB66C1DE5435A0085E63F /* ViewController.m in Sources */,
+				18D735A51DE5982D005D7BD5 /* AAViewController.m in Sources */,
 				184CB6A91DE56D600085E63F /* QViewController.m in Sources */,
 				184CB6691DE5435A0085E63F /* AppDelegate.m in Sources */,
 				184CB6A61DE564110085E63F /* sViewController.m in Sources */,
