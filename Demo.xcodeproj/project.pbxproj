@@ -15,8 +15,10 @@
 		184CB6741DE5435A0085E63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184CB6721DE5435A0085E63F /* LaunchScreen.storyboard */; };
 		184CB67F1DE5435A0085E63F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB67E1DE5435A0085E63F /* DemoTests.m */; };
 		184CB68A1DE5435A0085E63F /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6891DE5435A0085E63F /* DemoUITests.m */; };
+		184CB6991DE55C730085E63F /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6981DE55C730085E63F /* myViewController.m */; };
 		184CB69C1DE560F50085E63F /* XViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB69B1DE560F50085E63F /* XViewController.m */; };
 		184CB6A01DE561190085E63F /* WViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB69F1DE561190085E63F /* WViewController.m */; };
+		184CB6A61DE564110085E63F /* sViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6A51DE564110085E63F /* sViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +55,14 @@
 		184CB6851DE5435A0085E63F /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184CB6891DE5435A0085E63F /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		184CB68B1DE5435A0085E63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184CB6971DE55C730085E63F /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		184CB6981DE55C730085E63F /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
 		184CB69A1DE560F50085E63F /* XViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XViewController.h; sourceTree = "<group>"; };
 		184CB69B1DE560F50085E63F /* XViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XViewController.m; sourceTree = "<group>"; };
 		184CB69E1DE561190085E63F /* WViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WViewController.h; sourceTree = "<group>"; };
 		184CB69F1DE561190085E63F /* WViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WViewController.m; sourceTree = "<group>"; };
+		184CB6A41DE564110085E63F /* sViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sViewController.h; sourceTree = "<group>"; };
+		184CB6A51DE564110085E63F /* sViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				184CB6671DE5435A0085E63F /* AppDelegate.h */,
+				184CB6971DE55C730085E63F /* myViewController.h */,
+				184CB6981DE55C730085E63F /* myViewController.m */,
 				184CB6681DE5435A0085E63F /* AppDelegate.m */,
 				184CB66A1DE5435A0085E63F /* ViewController.h */,
 				184CB66B1DE5435A0085E63F /* ViewController.m */,
@@ -117,6 +125,8 @@
 				184CB6751DE5435A0085E63F /* Info.plist */,
 				184CB6641DE5435A0085E63F /* Supporting Files */,
 				184CB69A1DE560F50085E63F /* XViewController.h */,
+				184CB6A41DE564110085E63F /* sViewController.h */,
+				184CB6A51DE564110085E63F /* sViewController.m */,
 				184CB69B1DE560F50085E63F /* XViewController.m */,
 				184CB69E1DE561190085E63F /* WViewController.h */,
 				184CB69F1DE561190085E63F /* WViewController.m */,
@@ -288,7 +298,9 @@
 			files = (
 				184CB66C1DE5435A0085E63F /* ViewController.m in Sources */,
 				184CB6691DE5435A0085E63F /* AppDelegate.m in Sources */,
+				184CB6A61DE564110085E63F /* sViewController.m in Sources */,
 				184CB6A01DE561190085E63F /* WViewController.m in Sources */,
+				184CB6991DE55C730085E63F /* myViewController.m in Sources */,
 				184CB6661DE5435A0085E63F /* main.m in Sources */,
 				184CB69C1DE560F50085E63F /* XViewController.m in Sources */,
 			);
