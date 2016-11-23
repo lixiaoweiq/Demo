@@ -16,6 +16,7 @@
 		184CB67F1DE5435A0085E63F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB67E1DE5435A0085E63F /* DemoTests.m */; };
 		184CB68A1DE5435A0085E63F /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6891DE5435A0085E63F /* DemoUITests.m */; };
 		184CB6991DE55C730085E63F /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6981DE55C730085E63F /* myViewController.m */; };
+		184CB6A91DE56D600085E63F /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CB6A81DE56D600085E63F /* QViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		184CB68B1DE5435A0085E63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184CB6971DE55C730085E63F /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
 		184CB6981DE55C730085E63F /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
+		184CB6A71DE56D600085E63F /* QViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
+		184CB6A81DE56D600085E63F /* QViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				184CB6681DE5435A0085E63F /* AppDelegate.m */,
 				184CB66A1DE5435A0085E63F /* ViewController.h */,
 				184CB66B1DE5435A0085E63F /* ViewController.m */,
+				184CB6A71DE56D600085E63F /* QViewController.h */,
+				184CB6A81DE56D600085E63F /* QViewController.m */,
 				184CB66D1DE5435A0085E63F /* Main.storyboard */,
 				184CB6701DE5435A0085E63F /* Assets.xcassets */,
 				184CB6721DE5435A0085E63F /* LaunchScreen.storyboard */,
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184CB66C1DE5435A0085E63F /* ViewController.m in Sources */,
+				184CB6A91DE56D600085E63F /* QViewController.m in Sources */,
 				184CB6691DE5435A0085E63F /* AppDelegate.m in Sources */,
 				184CB6991DE55C730085E63F /* myViewController.m in Sources */,
 				184CB6661DE5435A0085E63F /* main.m in Sources */,
