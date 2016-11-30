@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [super viewDidLoad];[super viewDidLoad];
 //    adasd
 //    dasd
     // Do any additional setup after loading the view.
